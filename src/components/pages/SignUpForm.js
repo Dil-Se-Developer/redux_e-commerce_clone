@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import {setLoggedInStatus, setLoggedOutStatus} from '../../redux_toolkit/slices/authSlice'
 import FormInput from "../UI/FormInput";
 import "./SignUpForm.css";
 
 const SignUpForm = (props) => {
+  const dispatch = useDispatch();
   const intialValues = {
     firstname: "",
     lastname: "",
@@ -49,8 +52,10 @@ const SignUpForm = (props) => {
               .post("http://localhost:3000/users", formValues)
               .then((response) => response.data)
               .then((userData) => {
-                // props.handleLogin();
-                Navigate("/home");
+                dispatch(setLoggedInStatus(true))
+                dispatch(setLoggedOutStatus(false))
+                // props.handleLogin()
+                Navigate("/");
               })
               .catch((error) => {
                 console.log(error);
