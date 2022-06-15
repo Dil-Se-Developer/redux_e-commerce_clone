@@ -1,0 +1,10 @@
+.general_header {
+    background: var(--main-heading);
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+}
+
+.general_header img {
+    width: 75px;
+    height: 21px;
+}

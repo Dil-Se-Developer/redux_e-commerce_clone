@@ -1,39 +1,69 @@
 {
-    "users": [
-      {
-        "name": "Shail",
-        "emailid": "Shail@12",
-        "id": 1
-      },
-      {
-        "name": "Harsh",
-        "emailid": "Harsh@12",
-        "id": 2
-      },
-      {
-        "name": "Hardeep",
-        "emailid": "Hardeep@23",
-        "id": 3
-      },
-      {
-        "name": "Rakshit",
-        "emailid": "Rakshit@11",
-        "id": 4
-      },
-      {
-        "name": "Sunil",
-        "emailid": "Sunil@12",
-        "id": 5
-      },
-      {
-        "name": "Bhavisha",
-        "emailid": "Bhavisha@23",
-        "id": 6
-      },
-      {
-        "name": "Vraj",
-        "emailid": "Vraj@21",
-        "id": 7
-      }
-    ]
-  }
+  "users": [
+    {
+      "name": "Shail",
+      "emailid": "Shail@12",
+      "id": 1
+    },
+    {
+      "name": "Harsh",
+      "emailid": "Harsh@12",
+      "id": 2
+    },
+    {
+      "name": "Hardeep",
+      "emailid": "Hardeep@23",
+      "id": 3
+    },
+    {
+      "name": "Rakshit",
+      "emailid": "Rakshit@11",
+      "id": 4
+    },
+    {
+      "name": "Sunil",
+      "emailid": "Sunil@12",
+      "id": 5
+    },
+    {
+      "name": "Bhavisha",
+      "emailid": "Bhavisha@23",
+      "id": 6
+    },
+    {
+      "name": "Vraj",
+      "emailid": "Vraj@21",
+      "id": 7
+    },
+    {
+      "firstname": "Shail",
+      "lastname": "Shah",
+      "mobileno": "1234567890",
+      "emailid": "shail12@gmail.com",
+      "city": "vadodara",
+      "country": "india",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "firstname": "Shail",
+      "lastname": "Shah",
+      "mobileno": "1234567890",
+      "emailid": "shail12@gm.com",
+      "city": "vadodara",
+      "country": "india",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "firstname": "harsh",
+      "lastname": "Mansuri",
+      "mobileno": "7894561230",
+      "emailid": "harsh@21gmail.com",
+      "city": "bharuch",
+      "country": "india",
+      "password": "147369",
+      "id": 10
+    }
+  ]
+}
