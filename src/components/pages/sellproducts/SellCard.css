@@ -6,10 +6,11 @@
     padding: 0.8rem;
     border: 1px solid rgba(14,4,5,.2);
     border-radius: 4px;
+    /* flex: 20%; */
 }
 
 .sellcard img {
-    width: 220px;
+    width: 250px;
     height: 220px;
     object-fit: cover;
     border-radius: 2px;

@@ -58,6 +58,139 @@
       "description": "India’s Smartest Android TV",
       "productimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzhJKjnihtMHlEhvcBYlThHcGfaovUZ9Xv-Q&usqp=CAU",
       "price": 15000
+    },
+    {
+      "id": 2,
+      "name": "PUMA Propel 19",
+      "description": "Propel 19 Running Shoes For Men ",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/k40798w0/shoe/q/n/x/372570-7-puma-black-quarry-original-imafnymdxfvm2uu9.jpeg?q=50",
+      "price": 3500
+    },
+    {
+      "id": 3,
+      "name": "TIGER RUNNER Sneakers",
+      "description": "TIGER RUNNER Sneakers For Men ",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/kpzt7680/shoe/8/p/7/7-1191a301-asics-white-midnight-original-imag43vgznbgevqy.jpeg?q=50",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "name": "Mandarin Collar",
+      "description": "Men Regular Fit Solid Mandarin Collar Casual Shirt",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/ke1pnrk0-0/shirt/n/z/w/42-11896038-roadster-original-imafutcswhcffzet.jpeg?q=50",
+      "price": 500
+    },
+    {
+      "id": 5,
+      "name": "CANDLER Running",
+      "description": "CANDLER Running Shoes For Men",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/l3dcl8w0/shoe/y/b/j/8-ga1283-9-reebok-smokyindigo-blueslate-vectorred-white-original-imagegefa6pdpzxq.jpeg?q=50",
+      "price": 2000
+    },
+    {
+      "id": 6,
+      "name": "Men Regular Fit",
+      "description": "Men Regular Fit Checkered Spread Collar Casual Shirt",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/ke1pnrk0-0/shirt/w/i/4/42-11896036-roadster-original-imafutdjftjwwbfd.jpeg?q=50",
+      "price": 700
+    },
+    {
+      "id": 7,
+      "name": "Casual Shirt",
+      "description": "Men Regular Fit Solid Casual Shirt",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/l4d2ljk0/shirt/z/o/y/-original-imagfaez4kphwabe.jpeg?q=50",
+      "price": 800
+    },
+    {
+      "id": 8,
+      "name": "Backpack Colossal",
+      "description": "Large 40 L Backpack Colossal",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/ju79hu80/backpack/q/m/s/colossal-12145-laptop-backpack-wildcraft-original-imaffdnuub9hxbgz.jpeg?q=50",
+      "price": 1000
+    },
+    {
+      "id": 9,
+      "name": "Large 35 L",
+      "description": "Large 35 L Laptop Backpack Arrow Unisex laptop/college/school/travel backpack with Raincover  (Blue)",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/l3rmzrk0/backpack/g/n/3/7-arrow-unisex-laptop-college-school-travel-backpack-with-original-imagetbnkvfughhh.jpeg?q=50",
+      "price": 8000
+    },
+    {
+      "id": 10,
+      "name": "17.5 L Laptop Backpack",
+      "description": "17.5 L Laptop Backpack Knight W  (Blue)",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/ju79hu80/backpack/8/q/z/knight-w-12140-laptop-backpack-wildcraft-original-imaffdnwefszubfh.jpeg?q=50",
+      "price": 750
+    },
+    {
+      "id": 11,
+      "name": "Navy Sports Sandal",
+      "description": "Navy Sports Sandal",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/kwgpz0w0/sandal/g/l/p/8-hmo32-8-adidas-conavy-ambsky-original-imag94ueeks27puq.jpeg?q=50",
+      "price": 100
+    },
+    {
+      "id": 12,
+      "name": "Popcat 20 Slides",
+      "description": "Popcat 20 Slides",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/l4ei1e80/slipper-flip-flop/s/8/z/-original-imagfb9uhgw949mn.jpeg?q=50",
+      "price": 5000
+    },
+    {
+      "id": 13,
+      "name": "ADIDAS",
+      "description": "Men Navy Sandal",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/l45xea80/sandal/e/q/z/-original-imagf4fmdyqwqnjq.jpeg?q=50",
+      "price": 1500
+    },
+    {
+      "id": 14,
+      "name": "Black Sports Sandal",
+      "description": "Black Sports Sandal",
+      "productimg": "https://rukminim1.flixcart.com/image/800/960/l19m93k0/sandal/w/c/q/6-ga3107-6-adidas-carbon-pullim-dovgry-original-imagcvg4sftmnxxm.jpeg?q=50",
+      "price": 1300
+    },
+    {
+      "id": 15,
+      "name": "REDMI Note 10S",
+      "description": "REDMI Note 10S (Cosmic Purple, 64 GB)  (6 GB RAM)",
+      "productimg": "https://rukminim1.flixcart.com/image/416/416/kyeqjrk0/mobile/u/0/8/-original-imagan9qhw9nyhce.jpeg?q=70",
+      "price": 17000
+    },
+    {
+      "id": 16,
+      "name": "SAMSUNG Galaxy F12 ",
+      "description": "SAMSUNG Galaxy F12",
+      "productimg": "https://rukminim1.flixcart.com/image/416/416/kn22m4w0/mobile/a/q/8/galaxy-f12-sm-f127gzgiins-samsung-original-imagftmjw3xqg4yk.jpeg?q=70",
+      "price": 16000
+    },
+    {
+      "id": 17,
+      "name": "realme 9 5G",
+      "description": "realme 9 5G (Supersonic Black, 64 GB)  (4 GB RAM)",
+      "productimg": "https://rukminim1.flixcart.com/image/416/416/l4fxh8w0/mobile/l/l/4/-original-imagfc56zazhvbfq.jpeg?q=70",
+      "price": 18500
+    },
+    {
+      "id": 18,
+      "name": "POCO C31",
+      "description": "POCO C31",
+      "productimg": "https://rukminim1.flixcart.com/image/416/416/ku4ezrk0/mobile/b/o/m/c31-mzb0a0min-poco-original-imag7bzqxekkpkrv.jpeg?q=70",
+      "price": 18000
+    },
+    {
+      "id": 19,
+      "name": "APPLE iPhone 11",
+      "description": "APPLE iPhone 11",
+      "productimg": "https://rukminim1.flixcart.com/image/416/416/kgiaykw0/mobile/d/d/s/apple-iphone-11-mhdj3hn-a-original-imafwqepmfedbhb2.jpeg?q=70",
+      "price": 47000
+    },
+    {
+      "id": 20,
+      "name": "vivo T1 44W ",
+      "description": "vivo T1 44W",
+      "productimg": "https://rukminim1.flixcart.com/image/416/416/l2p23rk0/mobile/x/b/y/-original-imagdznhnzmzfbwx.jpeg?q=70",
+      "price": 14500
     }
   ]
 }
