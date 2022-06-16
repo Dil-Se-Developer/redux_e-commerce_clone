@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import {setLoggedInStatus, setLoggedOutStatus} from '../../redux_toolkit/slices/authSlice'
+import GeneralHeader from "../UI/GeneralHeader";
 import FormInput from "../UI/FormInput";
 import "./SignUpForm.css";
 
@@ -105,6 +106,7 @@ const SignUpForm = (props) => {
 
   return (
     <>
+      <GeneralHeader />
       <div className="form_card">
         <form>
           <FormInput

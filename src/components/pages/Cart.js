@@ -1,10 +1,14 @@
-import React from 'react'
-import './Cart.css'
+import React from "react";
+import GeneralHeader from "../UI/GeneralHeader";
+import "./Cart.css";
 
 const Cart = () => {
   return (
-    <div>Cart</div>
-  )
-}
+    <>
+      <GeneralHeader />
+      <div>Cart</div>
+    </>
+  );
+};
 
-export default Cart
+export default Cart;

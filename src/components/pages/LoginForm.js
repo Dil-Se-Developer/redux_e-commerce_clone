@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import {setLoggedInStatus, setLoggedOutStatus} from '../../redux_toolkit/slices/authSlice'
+import GeneralHeader from "../UI/GeneralHeader";
 import FormInput from "../UI/FormInput";
 import "./LoginForm.css";
 
@@ -82,6 +83,7 @@ const LoginForm = (props) => {
 
   return (
     <>
+      <GeneralHeader />
       <div className="form_card login_card">
         <form>
           <FormInput

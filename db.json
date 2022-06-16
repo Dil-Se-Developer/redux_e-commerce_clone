@@ -39,6 +39,25 @@
       "country": "India",
       "password": "123456",
       "id": 4
+    },
+    {
+      "firstname": "Vraj",
+      "lastname": "Bhrambhatt",
+      "mobileno": "1234567890",
+      "emailid": "vraj@gmail.com",
+      "city": "vadodara",
+      "country": "india",
+      "password": "123456",
+      "id": 5
+    }
+  ],
+  "sellitems": [
+    {
+      "id": 1,
+      "name": "Mi TV 4C",
+      "description": "India’s Smartest Android TV",
+      "productimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzhJKjnihtMHlEhvcBYlThHcGfaovUZ9Xv-Q&usqp=CAU",
+      "price": 15000
     }
   ]
 }

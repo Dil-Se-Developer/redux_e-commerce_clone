@@ -1,35 +1,30 @@
-import React from 'react'
-import { useDispatch } from "react-redux";
-import { setLoggedInStatus, setLoggedOutStatus } from '../../redux_toolkit/slices/authSlice'
-import { useNavigate } from 'react-router-dom';
-import './Home.css'
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import Header from "../layout/Header";
+import SubHeader from "../layout/SubHeader";
+import SellProducts from "./sellproducts/SellProducts";
+import "./Home.css";
 
 const Home = (props) => {
-  const dispatch = useDispatch();
-  const Navigate = useNavigate();
-  const logoutHandler = (event) => {
-    event.preventDefault();
-    // props.handleLogout();
-    dispatch(setLoggedInStatus(false))
-    dispatch(setLoggedOutStatus(true))
-  }
+  const [sellProducts, setSellProducts] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:3000/sellitems")
+      .then((responses) => setSellProducts(responses.data))
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
-  const navigatgeHandler = (event) => {
-    event.preventDefault();
-    // props.handleLogout();
-    Navigate('/cart');
-  }
-  
+  // console.log(sellProducts);
+
   return (
     <>
-      <button className="form_btn" onClick={logoutHandler}>
-        Logout
-      </button>
-      <button className="form_btn" onClick={navigatgeHandler}>
-        Navi
-      </button>
+      <Header />
+      <SubHeader />
+      <SellProducts sellProducts={sellProducts} />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

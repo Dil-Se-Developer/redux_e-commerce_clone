@@ -1,0 +1,43 @@
+.home_header {
+    background: var(--main-heading);
+    padding: 0.6rem 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_header img {
+    width: 75px;
+    height: 21px;
+}
+
+.cart_icon {
+    position: relative;
+    text-decoration: none;
+}
+
+.cart_icon svg {
+    color: #172337;
+    font-size: 1.3rem;
+}
+
+.cart_icon span {
+    position: absolute;
+    left: 0.9rem;
+    top: -0.7rem;
+    color: white;
+}
+
+.logout_btn {
+    margin-left: 1rem;
+    padding: 0.5rem 0.5rem !important;
+}
+
+/* responsive css */
+
+@media only screen and (min-width: 768px) {
+    .home_header {
+        padding: 0.6rem 1.5rem;
+    }    
+}

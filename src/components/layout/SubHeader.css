@@ -1,0 +1,44 @@
+.home_subheader {
+    background-color: #172337;
+    padding: 0.6rem 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home_search input {
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    position: relative;
+    top: -0.1rem;
+}
+
+.home_search input::placeholder {
+    font-size: 14px;
+}
+
+.home_search button {
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.sort_section {  
+    margin-top: 0.4rem;
+    color: white;
+}
+
+/* responsive design */
+
+@media only screen and (min-width: 576px) {
+    .home_subheader {
+        padding: 0.7rem 1.5rem;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    
+    .sort_section {
+        margin-top: 0rem;
+    }    
+}

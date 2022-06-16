@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import GeneralHeader from "../UI/GeneralHeader";
 
 const OrderConfirmation = () => {
   return (
-    <div>OrderConfirmation</div>
-  )
-}
+    <>
+      <GeneralHeader />
+      <div>OrderConfirmation</div>
+    </>
+  );
+};
 
-export default OrderConfirmation
+export default OrderConfirmation;
