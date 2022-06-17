@@ -1,0 +1,8 @@
+.order_confirmation_section { 
+    margin: 0rem 20%;
+}
+
+.order_confirmation_section img {
+    height: 90vh;
+    object-fit: contain;
+}

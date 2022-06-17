@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setLoggedInStatus, setLoggedOutStatus } from '../../redux_toolkit/slices/authSlice'
-import { Link, useNavigate } from "react-router-dom";
+import {
+  setLoggedInStatus,
+  setLoggedOutStatus,
+} from "../../redux_toolkit/slices/authSlice";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/flipkart_logo.png";
 import { BsCartFill } from "react-icons/bs";
 import "./Header.css";
 
 const Header = (props) => {
   const dispatch = useDispatch();
-  const items = useSelector((state) => state.cartItems.items)
+  const [btnIsHighlighted, setBtnIsHighlighted] = useState(false);
+  const items = useSelector((state) => state.cartItems.items);
   // console.log(items);
   const Navigate = useNavigate();
 
@@ -16,13 +20,32 @@ const Header = (props) => {
     return curNumber + item.amount;
   }, 0);
 
+  const cartHandler = (event) => {
+    event.preventDefault();
+    Navigate("/cart");
+  };
 
   const logoutHandler = (event) => {
     event.preventDefault();
-    dispatch(setLoggedInStatus(false))
-    dispatch(setLoggedOutStatus(true))
+    dispatch(setLoggedInStatus(false));
+    dispatch(setLoggedOutStatus(true));
     Navigate("/login");
   };
+
+  const btnClasses = `${"cart_icon"} ${btnIsHighlighted ? "bump" : ""}`;
+  // console.log(btnIsHighlighted);
+
+  useEffect(() => {
+    if (items.length === 0) {
+      return;
+    }
+
+    setBtnIsHighlighted(true);
+
+    setTimeout(() => {
+      setBtnIsHighlighted(false);
+    }, 300);
+  }, [items]);
 
   return (
     <div className="home_header">
@@ -30,7 +53,10 @@ const Header = (props) => {
         <img src={logo} alt="flipkart_logo" />
       </div>
       <div>
-        <Link to='/cart' className="cart_icon"><BsCartFill /><span>{numberOfCartItems}</span></Link>
+        <button className={btnClasses} onClick={cartHandler}>
+          <BsCartFill />
+          <span>{numberOfCartItems}</span>
+        </button>
         <button className="form_btn logout_btn" onClick={logoutHandler}>
           Logout
         </button>

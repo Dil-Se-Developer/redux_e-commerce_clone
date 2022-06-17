@@ -14,19 +14,27 @@
 
 .cart_icon {
     position: relative;
+    top: 0.55rem;
     text-decoration: none;
+    margin-right: 0.5rem;
+    background: none;
+    border: none;
 }
 
 .cart_icon svg {
     color: #172337;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .cart_icon span {
     position: absolute;
-    left: 0.9rem;
+    left: 1rem;
     top: -0.7rem;
+    font-weight: bold;
     color: white;
+    background-color: var(--btn-bg-color);
+    padding: 1px 7px;
+    border-radius: 50%;
 }
 
 .logout_btn {
@@ -34,10 +42,36 @@
     padding: 0.5rem 0.5rem !important;
 }
 
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.9);
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 /* responsive css */
 
 @media only screen and (min-width: 768px) {
     .home_header {
         padding: 0.6rem 1.5rem;
-    }    
+    }
 }

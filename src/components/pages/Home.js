@@ -40,7 +40,7 @@ const Home = (props) => {
 
   const handleSoritngChange = (event) => {
     let { value } = event.target
-    console.log(value);
+    // console.log(value);
     setSortValue(value)
   }
 

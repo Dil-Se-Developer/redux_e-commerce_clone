@@ -53,15 +53,15 @@ const Cart = () => {
                     />
                 ))}
             </ul>
-            <div className='total'>
+            <div className='cart_total'>
                 <span>Total Amount</span>
                 <span>{totalAmount}</span>
             </div>
-            <div className='actions'>
-                <button className='button--alt' onClick={cartCloseHandler}>
-                    Close
+            <div className='cart_actions'>
+                <button onClick={cartCloseHandler}>
+                    Back
                 </button>
-                {hasItems && <button className='order_button' onClick={cartOrderHandler}>Order</button>}
+                {hasItems && <button onClick={cartOrderHandler}>Order</button>}
             </div>
         </>
 

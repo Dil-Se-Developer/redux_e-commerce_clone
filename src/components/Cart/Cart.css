@@ -4,45 +4,104 @@
     list-style: none;
     margin: 0;
     padding: 0.5rem;
-    /* max-height: 20rem; */
-    overflow: auto;
 }
 
-.total {
+.cart_total {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 1.5rem;
-    margin: 1rem 0;
+    margin: 0.3rem 0rem;
+    padding: 0rem 0.5rem;
 }
 
-/* .actions {
-    text-align: right;
-} */
-
-/* .actions button {
-    font: inherit;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid #8a2b06;
-    padding: 0.5rem 2rem;
-    border-radius: 25px;
-    margin-left: 1rem;
+.cart_total span {
+    font-size: 1.1rem;
 }
 
-.actions button:hover,
-.actions button:active {
-    background-color: #5a1a01;
-    border-color: #5a1a01;
+.cart_actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.cart_actions button:nth-child(2) {
+    margin-left: 0.2rem;
+}
+
+.cart_actions button {
+    background-color: #2874F0;
     color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.4rem;
 }
 
-.actions .button--alt {
-    color: #8a2b06;
+/* responsive style */
+
+@media only screen and (min-width: 576px) {
+    .cart_items {
+        padding: 1rem;
+    }
+
+    .cart_total {
+        padding: 0rem 1rem;
+    }
+
+    .cart_total span {
+        font-size: 1.3rem;
+    }
+
+    .cart_actions {
+        padding: 1rem;
+    }
+
+    .cart_actions button {
+        padding: 0.6rem 0.6rem;
+    }
+
 }
 
-.actions .order_button {
-    background-color: #8a2b06;
-    color: white;
-} */
+@media only screen and (min-width: 992px) {
+    .cart_items {
+        margin: 0rem 3rem;
+    }
+
+    .cart_total {
+        padding: 0rem 4rem;
+    }
+
+    .cart_total span {
+        font-size: 1.5rem;
+    }
+
+    .cart_actions {
+        padding: 1rem 4rem;
+    }
+
+    .cart_actions button {
+        padding: 0.8rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .cart_items {
+        margin: 0rem 4.5rem;
+    }
+
+    .cart_total {
+        padding: 0rem 5.5rem;
+    }
+
+    .cart_total span {
+        font-size: 1.6rem;
+    }
+
+    .cart_actions {
+        padding: 1rem 5.5rem;
+    }
+
+    .cart_actions button {
+        padding: 0.9rem 1.2rem;
+    }
+}

@@ -49,6 +49,16 @@
       "country": "india",
       "password": "123456",
       "id": 5
+    },
+    {
+      "firstname": "Sunil",
+      "lastname": "Savat",
+      "mobileno": "1234567890",
+      "emailid": "sunil@21gmail.com",
+      "city": "vadodara",
+      "country": "india",
+      "password": "123456",
+      "id": 6
     }
   ],
   "sellitems": [
