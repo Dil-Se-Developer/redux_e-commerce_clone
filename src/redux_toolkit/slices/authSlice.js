@@ -9,12 +9,11 @@ const authSlice = createSlice({
     name: "loginStatus",
     initialState: defaultCartState,
     reducers: {
-        setLoggedInStatus(state, action) {
-            return { ...state, isLoggedIn: action.payload }
+        setLoggedInStatus: (state, action) => {
+            state.isLoggedIn = action.payload;
         },
-        
-        setLoggedOutStatus(state, action) {
-            return { ...state, isLoggedOut: action.payload }
+        setLoggedOutStatus: (state, action) => {
+            state.isLoggedOut = action.payload;
         }
     }
 })
